@@ -1,0 +1,33 @@
+{
+  "name": "create-webpack-app",
+  "version": "1.0.0",
+  "description": "A simple prototype for my create-webpack-app proposal for GSoC 2024.",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rb3198/create-webpack-app-proto.git"
+  },
+  "author": "rb3198",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rb3198/create-webpack-app-proto/issues"
+  },
+  "homepage": "https://github.com/rb3198/create-webpack-app-proto#readme",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "^12.0.0",
+    "prettier": "^3.2.5",
+    "semver": "^7.6.0",
+    "validate-npm-package-name": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.3",
+    "@types/semver": "^7.5.8",
+    "@types/validate-npm-package-name": "^4.0.2",
+    "typescript": "^5.4.3"
+  }
+}
